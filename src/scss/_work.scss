@@ -1,0 +1,19 @@
+.card-h{
+    background-color: #fca21161;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom:10px ;
+    width: 100%;
+    text-align: left !important;
+    transition: .4s ease-in-out;
+}
+.work-card{
+    transition: .3s ease-in-out;
+    border: 2px solid #fff;
+}
+.work-card:hover{
+    .card-h{
+        padding-bottom:30px ;
+    }
+}

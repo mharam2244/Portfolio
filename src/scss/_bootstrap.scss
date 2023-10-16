@@ -1,0 +1,20 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./colors.scss";
+@import "./link.scss";
+@import "./home.scss";
+@import "./work.scss";
+@import "./skills.scss";
+
+
+#root{
+    background-color:#14213d;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    main{
+        flex: 1 0 auto;
+    }
+}
+.call{
+    border-radius: 50%;
+}
